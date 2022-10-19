@@ -26,10 +26,14 @@ body {
   align-items: center;
   counter-increment: swiper-slide;
 }
+
 .swiper-slide img {
   width: 318px;
   height: 338px;
 }
 .swiper-pagination-bullet-active {
   background: white;
+}
+.text {
+  color: green;
 }
