@@ -35,7 +35,15 @@
     transition: all 0.3s ease;
   }
   .carousel img {
+    object-fit: cover;
     width: 100%;
     position: absolute;
+  }
+  .item {
+    position: absolute;
+    display: none;
+  }
+  .main {
+    display: block;
   }
 }

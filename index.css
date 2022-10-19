@@ -31,8 +31,16 @@
   transition: all 0.3s ease;
 }
 .carsoul-container .carousel img {
+  object-fit: cover;
   width: 100%;
   position: absolute;
+}
+.carsoul-container .item {
+  position: absolute;
+  display: none;
+}
+.carsoul-container .main {
+  display: block;
 }
 
 /*# sourceMappingURL=index.css.map */
