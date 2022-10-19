@@ -2,37 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js   ">
+  <meta charset="UTF-8">
+  <title>CodePen - Swiper carousel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-    <div class="carsoul-container">
-        <div class="navigation">
-            <div class="prev nav-btn">prev</div>
-            <div class="next nav-btn">next</div>
-        </div>
-        <div class="carousel">
-            <div class=" main ">
-                <img src="https://source.unsplash.com/random?landscape,mountain" alt="" />
-            </div>
-            <div class="item">
-                <img src="https://source.unsplash.com/random?landscape,cars" alt="" />
-            </div>
-            <div class="item">
-                <img src="https://source.unsplash.com/random?landscape,night" alt="" />
-            </div>
+  <!-- partial:index.partial.html -->
+  <div class="swiper-container" data-flickity>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1532363664322-b46b86cc86d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1508967544022-b56cd5410ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1512146587460-f94274cc6b9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
 
-        </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1512286363-14c26145b861?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1500832333538-837287aad2b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1439911767590-c724b615299d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1522874339442-b66b63414ab4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+      </div>
+      <div class="swiper-slide"><img
+          src="https://images.unsplash.com/photo-1529690352690-1a85af03cc98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+      </div>
     </div>
-
-    </div>
-
-    <script src="./script.js"></script>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
 
